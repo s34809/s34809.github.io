@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ผลงานและกิจกรรม | ชื่อ-นามสกุลของคุณ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+<header class="site-header" id="site-header">
+  <nav class="nav">
+    <a class="nav-mark" href="index.html">ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" aria-label="เปิดเมนู" aria-expanded="false" id="navToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">หน้าหลัก</a></li>
+      <li><a href="preface.html">คำนำ</a></li>
+      <li><a href="about.html">ประวัติส่วนตัว</a></li>
+      <li><a href="portfolio.html" aria-current="page">ผลงานและกิจกรรม</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="section-narrow">
+      <div class="section-head">
+        <p class="section-kicker">03 — ผลงานและกิจกรรม</p>
+        <h1 class="section-title">ผลงานทางวิชาการ รางวัล และกิจกรรม</h1>
+        <p class="section-lede">
+          เรียงตามช่วงเวลาล่าสุดไปหาเก่าที่สุด กดปุ่มด้านล่างเพื่อกรองตามประเภทผลงาน
+        </p>
+      </div>
+
+      <div class="filter-row" role="group" aria-label="กรองประเภทผลงาน">
+        <button class="filter-btn is-active" data-filter="all">ทั้งหมด</button>
+        <button class="filter-btn" data-filter="academic">ผลงานวิชาการ</button>
+        <button class="filter-btn" data-filter="award">รางวัล</button>
+        <button class="filter-btn" data-filter="activity">กิจกรรม/จิตอาสา</button>
+      </div>
+
+      <div class="entry-list" id="entryList">
+
+        <article class="entry" data-type="award">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อรางวัลหรือการประกวด]</h3>
+            <p>
+              [อธิบายสั้น ๆ ว่าเป็นการประกวด/แข่งขันอะไร จัดโดยหน่วยงานใด
+              ได้รับรางวัลระดับใด และมีบทบาทหรือส่วนร่วมอย่างไรในผลงานนี้]
+            </p>
+            <span class="entry-tag">รางวัล</span>
+            <span class="entry-tag">[ระดับ เช่น ระดับประเทศ]</span>
+          </div>
+        </article>
+
+        <article class="entry" data-type="academic">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อโครงงานหรือผลงานวิชาการ]</h3>
+            <p>
+              [อธิบายที่มาของโครงงาน วัตถุประสงค์ วิธีการดำเนินงานโดยย่อ
+              และผลลัพธ์หรือสิ่งที่ได้เรียนรู้จากการทำโครงงานนี้]
+            </p>
+            <span class="entry-tag">ผลงานวิชาการ</span>
+            <span class="entry-tag">[รายวิชา/สาขา]</span>
+          </div>
+        </article>
+
+        <article class="entry" data-type="activity">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อค่าย/กิจกรรม/โครงการจิตอาสา]</h3>
+            <p>
+              [อธิบายว่ากิจกรรมนี้จัดขึ้นที่ไหน มีวัตถุประสงค์อย่างไร
+              และบทบาทของตนเองในกิจกรรมนั้น เช่น ผู้เข้าร่วม หัวหน้ากลุ่ม หรือผู้ประสานงาน]
+            </p>
+            <span class="entry-tag">กิจกรรม</span>
+            <span class="entry-tag">[ระยะเวลา]</span>
+          </div>
+        </article>
+
+        <article class="entry" data-type="award">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อรางวัลหรือเกียรติบัตร]</h3>
+            <p>
+              [รายละเอียดของผลงาน เช่น การแข่งขันวิชาการ กีฬา หรือศิลปะ
+              พร้อมระบุหน่วยงานผู้จัดและระดับของรางวัลที่ได้รับ]
+            </p>
+            <span class="entry-tag">รางวัล</span>
+            <span class="entry-tag">[ระดับ]</span>
+          </div>
+        </article>
+
+        <article class="entry" data-type="activity">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อกิจกรรมชมรมหรือสภานักเรียน]</h3>
+            <p>
+              [อธิบายบทบาทในชมรมหรือกิจกรรมของโรงเรียน ทักษะที่ได้พัฒนา
+              เช่น ภาวะผู้นำ การทำงานเป็นทีม หรือการบริหารจัดการโครงการ]
+            </p>
+            <span class="entry-tag">กิจกรรม</span>
+            <span class="entry-tag">[บทบาท]</span>
+          </div>
+        </article>
+
+        <article class="entry" data-type="academic">
+          <div class="entry-meta">[ปี พ.ศ.]</div>
+          <div>
+            <h3>[ชื่อผลงานตีพิมพ์/บทความ/สิ่งประดิษฐ์]</h3>
+            <p>
+              [รายละเอียดผลงาน แหล่งที่เผยแพร่หรือจัดแสดง และความเชื่อมโยง
+              กับสาขาวิชาที่ต้องการศึกษาต่อ]
+            </p>
+            <span class="entry-tag">ผลงานวิชาการ</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <ul class="footer-links">
+    <li><a href="index.html">หน้าหลัก</a></li>
+    <li><a href="preface.html">คำนำ</a></li>
+    <li><a href="about.html">ประวัติส่วนตัว</a></li>
+    <li><a href="portfolio.html">ผลงานและกิจกรรม</a></li>
+  </ul>
+  <p>แฟ้มสะสมผลงาน — จัดทำเพื่อประกอบการสมัครเข้าศึกษาต่อ มหาวิทยาลัยมหิดล</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
