@@ -524,6 +524,23 @@ p {
   border-radius: 50%;
 }
 
+.timeline-school {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0;
+}
+
+.timeline-logo {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  padding: 2px;
+  object-fit: cover;
+}
+
 .timeline-year {
   font-family: var(--serif);
   color: var(--gold);
