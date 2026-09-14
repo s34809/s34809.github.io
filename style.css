@@ -631,6 +631,25 @@ p {
   background: rgba(179, 145, 90, 0.08);
 }
 
+.entry-image-link {
+  display: inline-block;
+  margin-top: 1.1rem;
+}
+
+.entry-image {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  border: 1px solid var(--gold-line);
+  transition: border-color 0.25s ease, opacity 0.25s ease;
+}
+
+.entry-image-link:hover .entry-image,
+.entry-image-link:focus-visible .entry-image {
+  border-color: var(--gold);
+  opacity: 0.92;
+}
+
 .entry-list {
   display: flex;
   flex-direction: column;
