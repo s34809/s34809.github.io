@@ -464,7 +464,7 @@ p {
 .profile-photo {
   aspect-ratio: 3 / 4;
   background: var(--navy);
-  border: 1px solid var(--gold-line);
+  border: 1px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,7 +472,7 @@ p {
   font-family: var(--serif);
   font-size: 0.95rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0;
   overflow: hidden;
 }
 
